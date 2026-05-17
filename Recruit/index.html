@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>生物探索团队本科生招募</title>
+    <meta
+      name="description"
+      content="面向对 AI、生命科学、药学、化学生物学与 AI for Science 感兴趣的本科生招募。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Bio Exploration</span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="#directions">方向</a>
+        <a href="#projects">项目</a>
+        <a href="#fit">适合你吗</a>
+        <a href="#join">加入</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Undergraduate Recruitment</p>
+          <h1>
+            <span class="title-line">从真实生物问题进入</span>
+            <span class="title-art">AI for Science</span>
+          </h1>
+          <p class="hero-text">
+            我们招募对 AI、生命科学、药学、化学生物学感兴趣的本科生，一起把分子、蛋白、基因组、转录组和医学图像中的信息转化为可检验的科学问题。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#join">查看加入方式</a>
+            <a class="button secondary" href="#projects">浏览项目入口</a>
+          </div>
+          <div class="signal-row" aria-label="招募方向概览">
+            <span>分子/蛋白表征</span>
+            <span>组学规律挖掘</span>
+            <span>AI for Science 方法</span>
+          </div>
+        </div>
+
+        <div class="hero-summary" aria-label="招募关键词">
+          <span>真实科研问题</span>
+          <span>可执行任务进入</span>
+          <span>交叉背景友好</span>
+        </div>
+      </section>
+
+      <section class="section" id="directions">
+        <div class="section-heading">
+          <p class="eyebrow">Research Tracks</p>
+          <h2>三条可以进入团队的方向</h2>
+          <p>
+            你不需要一开始就什么都会。更重要的是愿意把问题拆清楚，把结果做扎实，并持续学习生命科学与计算方法之间的语言。
+          </p>
+        </div>
+
+        <div class="track-tabs" role="tablist" aria-label="招募方向">
+          <button class="track-tab active" type="button" data-track="molecule" role="tab" aria-selected="true">
+            分子/蛋白
+          </button>
+          <button class="track-tab" type="button" data-track="omics" role="tab" aria-selected="false">
+            基因/转录组
+          </button>
+          <button class="track-tab" type="button" data-track="methods" role="tab" aria-selected="false">
+            AI for Science
+          </button>
+        </div>
+
+        <div class="track-grid">
+          <article class="track-card active" data-track-card="molecule">
+            <span class="track-index">01</span>
+            <h3>分子/蛋白表征、预测、生成式设计</h3>
+            <p>
+              从蛋白序列、结构、构象 ensemble、功能肽和药物候选出发，学习如何把生物分子问题转化为可计算、可验证的任务。
+            </p>
+            <ul>
+              <li>蛋白语言模型与序列表征</li>
+              <li>功能肽筛选与候选设计</li>
+              <li>分子-靶点关系与结构证据</li>
+            </ul>
+          </article>
+
+          <article class="track-card" data-track-card="omics">
+            <span class="track-index">02</span>
+            <h3>AI 助力基因、转录组学规律挖掘</h3>
+            <p>
+              面向基因组、转录组、空间组学和病理图像，寻找与免疫、疾病响应、物种适应和细胞状态相关的模式。
+            </p>
+            <ul>
+              <li>候选基因与通路整理</li>
+              <li>多模态医学数据解释</li>
+              <li>组学特征与机制假设构建</li>
+            </ul>
+          </article>
+
+          <article class="track-card" data-track-card="methods">
+            <span class="track-index">03</span>
+            <h3>AI for Science 方法与科学数据集</h3>
+            <p>
+              关注 flow matching、benchmark、科学数据资源、分子模拟和自动化发现流程，把方法能力落到具体科学任务中。
+            </p>
+            <ul>
+              <li>模型复现与结果审计</li>
+              <li>科学数据库构建与验证</li>
+              <li>生成模型、模拟与候选筛选</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects">
+        <div class="section-heading compact">
+          <p class="eyebrow">Project Entry</p>
+          <h2>可以从这些项目开始</h2>
+          <p>每个项目都有不同的进入方式：文献阅读、数据整理、复现模型、做可视化、整理候选、设计验证。</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card featured" href="./project.html?project=07">
+            <span class="project-tag">功能肽 · 生成设计</span>
+            <h3>AI-抗冻肽</h3>
+            <p>从抗冻蛋白预测器、生成器和 motif 挖掘进入候选肽发现与实验验证。</p>
+          </a>
+          <a class="project-card featured" href="./project.html?project=08">
+            <span class="project-tag">蛋白 ensemble · Flow matching</span>
+            <h3>AI-可变蛋白</h3>
+            <p>围绕 IDP 构象 ensemble 生成，学习物理先验、生成模型和 benchmark 审计。</p>
+          </a>
+          <a class="project-card featured" href="./project.html?project=01">
+            <span class="project-tag">基因组 · 免疫耐受</span>
+            <h3>AI-BAT</h3>
+            <p>从蝙蝠基因组和免疫耐受切入，做候选基因、物种对照和序列表征分析。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=09">
+            <span class="project-tag">医学 AI · 多模态</span>
+            <h3>AI-胃癌预测</h3>
+            <p>面向免疫治疗响应预测、TLS 识别和可解释多模态医学模型。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=02">
+            <span class="project-tag">药物发现 · 证据整合</span>
+            <h3>AI-老药新用</h3>
+            <p>整理 FDA 药物、蛋白靶点、疾病证据和结构增强结果，形成候选优先级。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=03">
+            <span class="project-tag">递送系统 · 配方设计</span>
+            <h3>AI-LNP</h3>
+            <p>围绕脂质纳米颗粒递送系统，整理配方变量、性质指标和可建模任务。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=04">
+            <span class="project-tag">基础机制 · 知识框架</span>
+            <h3>AI-生物化学</h3>
+            <p>沉淀团队共用的生物化学概念、机制问题和跨项目知识底座。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=05">
+            <span class="project-tag">生物催化 · 数据资源</span>
+            <h3>AI-级联催化逆合成</h3>
+            <p>从结构化级联反应数据库进入催化剂、反应步骤和路线设计问题。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=06">
+            <span class="project-tag">材料数据 · 性能预测</span>
+            <h3>AI-有机光伏材料</h3>
+            <p>学习科学数据库构建、字段验证和材料结构-性能关系建模。</p>
+          </a>
+          <a class="project-card" href="./project.html?project=10">
+            <span class="project-tag">分子模拟 · Flow matching</span>
+            <h3>AI-吸附质放置</h3>
+            <p>理解吸附构型生成、低能位点搜索和 AI-DFT 工作流中的前处理方法。</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section fit-section" id="fit">
+        <div class="fit-copy">
+          <p class="eyebrow">Who We Need</p>
+          <h2>适合加入的同学</h2>
+          <p>
+            不按“年级”和“头衔”筛人。我们更看重你是否愿意在真实科研问题里补齐知识、认真记录过程，并把一个小任务做成可以复用的结果。
+          </p>
+        </div>
+        <div class="fit-list">
+          <div>
+            <h3>AI / 计算背景</h3>
+            <p>熟悉 Python、机器学习、深度学习、数据处理或可视化，愿意学习生物问题。</p>
+          </div>
+          <div>
+            <h3>生命科学 / 药学背景</h3>
+            <p>理解分子、生物化学、组学、药理或实验逻辑，愿意学习计算工具。</p>
+          </div>
+          <div>
+            <h3>交叉探索型</h3>
+            <p>暂时没有完整技能树也可以，从文献整理、数据标注、结果复核和图表开始进入项目。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tasks-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">How You Grow</p>
+          <h2>你可以这样进入真实科研</h2>
+        </div>
+        <div class="task-board">
+          <div>
+            <span>01</span>
+            <strong>把一个科学问题讲清楚</strong>
+            <p>从项目背景、关键变量和已有证据中整理出真正值得问的问题。</p>
+          </div>
+          <div>
+            <span>02</span>
+            <strong>参与数据与候选体系建设</strong>
+            <p>把分子、蛋白、基因或病理信息转化为后续分析可以使用的研究对象。</p>
+          </div>
+          <div>
+            <span>03</span>
+            <strong>复现并理解前沿模型</strong>
+            <p>不止跑通代码，还要判断模型适合什么问题、结果可信到什么程度。</p>
+          </div>
+          <div>
+            <span>04</span>
+            <strong>提出可验证的候选结果</strong>
+            <p>参与候选分子、蛋白、基因或机制的筛选，并解释为什么值得继续推进。</p>
+          </div>
+          <div>
+            <span>05</span>
+            <strong>做出能被讨论的图和结论</strong>
+            <p>把复杂结果压缩成老师和合作者能快速判断价值的图表与叙事。</p>
+          </div>
+          <div>
+            <span>06</span>
+            <strong>连接计算预测与实验验证</strong>
+            <p>和实验或领域同学协作，把模型结果转化为下一轮验证方案。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="join-section" id="join">
+        <div>
+          <p class="eyebrow">Join Us</p>
+          <h2>加入方式</h2>
+          <p>
+            入口暂时预留。后续可在这里补充邮箱、问卷链接或二维码。申请时建议说明你的背景、感兴趣的方向，以及愿意先从哪类任务开始。
+          </p>
+        </div>
+        <div class="join-card">
+          <span>Contact placeholder</span>
+          <strong>邮箱 / 表单 / 二维码待补</strong>
+          <p>建议准备：个人简介、相关课程或项目经历、每周可投入时间、感兴趣的项目方向。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Bio Exploration Team</span>
+      <a href="../Panel_plan.md">返回本科生项目总览</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
