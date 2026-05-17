@@ -6,7 +6,7 @@
 请更新生物探索团队 panel 中的项目页。
 
 工作目录：
-D:\research\Bio\Panel
+.
 
 任务类型：
 【在这里选择并填写】
@@ -65,7 +65,7 @@ D:\research\Bio\Panel
 如果只是更新一个已有项目，可以发送：
 
 ```text
-请根据 `D:\research\Bio\Panel\XXAI-项目名` 里新增的文件更新该项目 README，并同步更新 Panel_plan.md。
+请根据 `XXAI-项目名` 里新增的文件更新该项目 README，并同步更新 Panel_plan.md。
 
 要求：
 1. 先读完项目文件夹里的材料，再总结项目事实。

@@ -1,10 +1,10 @@
-# AI for Biology Panel
+# AI-for-biology-recruit
 
 ## 本科生招募入口
 
 请直接点击下面的链接进入网页：
 
-### [打开生物探索团队本科生招募网页](https://knitua.github.io/AI-for-biology-Panel/)
+### [打开生物探索团队本科生招募网页](https://knitua.github.io/AI-for-biology-recruit/)
 
 如果上面的链接暂时打不开，可能是 GitHub Pages 正在部署，请等待 1-3 分钟后刷新。
 
@@ -23,7 +23,6 @@
 
 ## 快速入口
 
-- [招募首页](https://knitua.github.io/AI-for-biology-Panel/)
-- [项目总览](https://knitua.github.io/AI-for-biology-Panel/Panel_plan.md)
+- [招募首页](https://knitua.github.io/AI-for-biology-recruit/)
+- [项目总览](https://knitua.github.io/AI-for-biology-recruit/Panel_plan.md)
 - [招募网页源码](./Recruit/index.html)
-

@@ -1,6 +1,6 @@
 # 本科生招募网页
 
-这个文件夹是 `To undergraduate` 视图下的本科生招募入口。
+这个文件夹是 `AI-for-biology-recruit` 视图下的本科生招募入口。
 
 ## 文件说明
 
@@ -14,7 +14,7 @@
 
 ## 维护规则
 
-- 这个文件夹允许保存网页文件；`To undergraduate` 下其他项目文件夹继续保持 Markdown-only。
+- 这个文件夹允许保存网页文件；`AI-for-biology-recruit` 下其他项目文件夹继续保持 Markdown-only。
 - 如需补充联系方式，优先修改 `index.html` 中 `Join Us` 区域。
 - 如需调整招募方向，优先修改 `Research Tracks` 区域。
 - 如需新增项目入口，修改 `Project Entry` 区域，并在 `projects.js` 中补充对应项目数据。
@@ -23,4 +23,4 @@
 
 直接用浏览器打开：
 
-`D:\research\Bio\Panel\To undergraduate\Recruit\index.html`
+`Recruit\index.html`

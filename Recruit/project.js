@@ -11,11 +11,9 @@ const renderParagraphs = (id, paragraphs) => {
   const node = document.getElementById(id);
   if (!node) return;
   node.innerHTML = "";
-  paragraphs.forEach((text) => {
-    const p = document.createElement("p");
-    p.textContent = text;
-    node.appendChild(p);
-  });
+  const p = document.createElement("p");
+  p.textContent = paragraphs.join("");
+  node.appendChild(p);
 };
 
 const renderGoals = (id, goals) => {
@@ -52,7 +50,4 @@ if (project) {
   renderParagraphs("project-question", project.question);
   renderParagraphs("project-meaning", project.meaning);
   renderGoals("project-goals", project.goals);
-
-  const mdLink = document.getElementById("project-md");
-  if (mdLink) mdLink.href = project.md;
 }
